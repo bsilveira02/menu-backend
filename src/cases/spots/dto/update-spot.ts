@@ -1,6 +1,6 @@
 import { IsBoolean, IsNotEmpty, IsOptional, IsString, MaxLength } from "class-validator";
 
-export class UpdateCategoryDto {
+export class UpdateSpotDto {
   @IsOptional()
   @IsString()
   @IsNotEmpty()
